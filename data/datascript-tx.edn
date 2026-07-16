@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "tur.kanun-6102-2011-turk-ticaret-kanunu"
+           :title "Türk Ticaret Kanunu (Turkish Commercial Code)"
+           :jurisdiction "TUR"
+           :kind :law
+           :law-number "Kanun No. 6102"
+           :url "https://mgm.adalet.gov.tr/Resimler/SayfaDokuman/181020191508056102sk.pdf"
+           :url-provenance :official-adalet-gov-tr
+           :enacted-date "2011-01-13"
+           :retrieved-at "2026-07-17"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "tur.kanun-6698-2016-kisisel-verilerin-korunmasi-kanunu"
+           :title "Kişisel Verilerin Korunması Kanunu (Personal Data Protection Law)"
+           :jurisdiction "TUR"
+           :kind :law
+           :law-number "Kanun No. 6698"
+           :url "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6698.doc"
+           :url-provenance :official-mevzuat-gov-tr
+           :enacted-date "2016-03-24"
+           :retrieved-at "2026-07-17"
+           :topic [:data-protection :privacy]}]
